@@ -9,7 +9,7 @@ const Produtos = db.define('Produtos', {
         type: DataTypes.STRING,
         allowNull: false
     },
-    preco: {
+    val: {
             type: DataTypes.FLOAT,
             allowNull: false
         },

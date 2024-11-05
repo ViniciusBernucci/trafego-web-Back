@@ -9,15 +9,23 @@ const Metricas = db.define('Metricas', {
         type: DataTypes.DATEONLY,
         allowNull: false
     },
+
+    num_vendas: {
+        type: DataTypes.INTEGER,
+        allowNull: false
+    },
+
     invest: {
         type: DataTypes.INTEGER,
         allowNull: false
     },
 
-    sales: {
+    val_vendas: {
         type: DataTypes.INTEGER,
         allowNull: false
     }
+
+
 })
 
 module.exports = Metricas;
